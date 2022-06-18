@@ -1,0 +1,23 @@
+# All settings related to players joining the server
+join:
+  messages:
+    - "This server's gamemode is set to semi-hardcore, meaning that"
+    - "the game is much less forgiving for deaths."
+# All settings related to player deaths (by any means)
+death:
+  messages:
+    - "You died, but had hearts to spare... I'll take those!"
+    - "You lost a portion of your health."
+# All settings related to the plugin's "purification
+# rituals," which players can perform to regain lost health.
+purification:
+  # All settings related to normal purification rituals.
+  normal:
+    messages:
+      - "You performed a purification ritual!"
+      - "You gained a portion of your health back."
+  # All settings related to super purification rituals.
+  super:
+    messages:
+      - "You performed a super purification ritual!"
+      - "Your health was completely restored."

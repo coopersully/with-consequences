@@ -1,0 +1,17 @@
+name: WithConsequences
+version: '${version}'
+main: me.coopersully.withconsequences.WithConsequences
+api-version: 1.19
+authors: [ coopersully ]
+description: A semi-hardcore gamemode for multiplayer servers.
+website: https://coopersully.me/projects/with-consequences
+
+commands:
+  withconsequences:
+    description: General information about the plugin.
+    usage: /withconsequences [reload]
+    aliases: [ "wc", "wcon", "wico", "consequences"]
+  stats:
+    description: Check your current statistics.
+    usage: /stats
+    aliases: ["playerstats"]
